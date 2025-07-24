@@ -1,0 +1,44 @@
+.card {
+  padding: 2rem;
+  margin: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+}
+
+.techList li {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.links a {
+  color: white;
+  font-weight: bold;
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+
+.links a:hover {
+  text-decoration: none;
+}
