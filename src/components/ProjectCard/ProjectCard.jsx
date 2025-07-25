@@ -13,7 +13,7 @@ export default function ProjectCard({
   return (
     <div className={styles.card} style={{ background: gradient }}>
       <div className={styles.descImgContainer}>
-        <div>
+        <div >
           <h3>{title}</h3>
           <p className={styles.description}>{description}</p>
 

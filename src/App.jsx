@@ -26,14 +26,17 @@ function App() {
         gradient="linear-gradient(135deg, #18554eff, #2dd4bf)"
         image="/images/cv_mockF.png"
       />
-      <ProjectCard
-        title="Homemade Drive"
-        description="App para subir y gestionar archivos en la nube."
-        tech={["React", "Node.js", "Express", "Cloudinary"]}
-        repoLink="https://github.com/tu-usuario/drive-clone"
-        demoLink="https://drive-demo.vercel.app"
-        gradient="linear-gradient(135deg, #1b0c06ff, #b56f4d)"
-      />
+
+      {/*
+        <ProjectCard
+          title="Homemade Drive"
+          description="App para subir y gestionar archivos en la nube."
+          tech={["React", "Node.js", "Express", "Cloudinary"]}
+          repoLink="https://github.com/tu-usuario/drive-clone"
+          demoLink="https://drive-demo.vercel.app"
+          gradient="linear-gradient(135deg, #1b0c06ff, #b56f4d)"
+        />
+*/}
 
       <Contact></Contact>
     </>
