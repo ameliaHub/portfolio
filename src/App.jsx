@@ -12,8 +12,8 @@ function App() {
         title="BLOG"
         description="Aplicación full-stack que permite gestionar un blog mediante un panel de administración. Cuenta con una API RESTful construida con Express que permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre las publicaciones y manejar la autenticación de usuarios guardados en una base de datos relacional PostgreSQL. El frontend, desarrollado con React, consume la API para mostrar el contenido de forma eficiente y adaptarse a todas las pantallas."
         tech={["React", "Node.js", "Express", "PostgreSQL", "Passport"]}
-        repoLink="https://github.com/tu-usuario/blog"
-        demoLink="https://blog-demo.vercel.app"
+        repoLink="https://github.com/ameliaHub/blog-api-demo"
+        demoLink="https://blog-api-demo-lac.vercel.app/"
         gradient="linear-gradient(135deg, #16173fff, #3b82f6)"
         image="/images/blog_showcase.png"
       />
