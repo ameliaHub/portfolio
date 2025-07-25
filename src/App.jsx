@@ -15,6 +15,7 @@ function App() {
         repoLink="https://github.com/tu-usuario/blog"
         demoLink="https://blog-demo.vercel.app"
         gradient="linear-gradient(135deg, #16173fff, #3b82f6)"
+        image="/images/blog_showcase.png"
       />
       <ProjectCard
         title="CV Generator"
@@ -25,7 +26,7 @@ function App() {
         gradient="linear-gradient(135deg, #18554eff, #2dd4bf)"
       />
       <ProjectCard
-        title="Pseudo Google Drive"
+        title="Homemade Drive"
         description="App para subir y gestionar archivos en la nube."
         tech={["React", "Node.js", "Express", "Cloudinary"]}
         repoLink="https://github.com/tu-usuario/drive-clone"
