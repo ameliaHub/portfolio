@@ -7,12 +7,12 @@ export default function Contact() {
     {
       icon: <FaLinkedin size={20} />,
       label: "LinkedIn",
-      url: "https://www.linkedin.com/in/tu-usuario",
+      url: "https://www.linkedin.com/in/pilarbermudezcervilla/",
     },
     {
       icon: <FaGithub size={20} />,
       label: "GitHub",
-      url: "https://github.com/tu-usuario",
+      url: "https://github.com/ameliaHub",
     },
     {
       icon: null,
