@@ -18,12 +18,13 @@ function App() {
         image="/images/blog_showcase.png"
       />
       <ProjectCard
-        title="CV Generator"
+        title="CV Builder"
         description="Constructor de CVs que permite crear y descargar currículum vitaes en formato PDF. Utiliza React para la interfaz de usuario y HTML2PDF para la generación del archivo."
-        tech={["React", "HTML2PDF", "CSS Modules"]}
-        repoLink="https://github.com/tu-usuario/cv-builder"
-        demoLink="https://cv-demo.vercel.app"
+        tech={["React", "HTML2PDF", "CSS"]}
+        repoLink="https://github.com/ameliaHub/cv-builder"
+        demoLink="https://cv-builder-iota.vercel.app/"
         gradient="linear-gradient(135deg, #18554eff, #2dd4bf)"
+        image="/images/cv_mockF.png"
       />
       <ProjectCard
         title="Homemade Drive"
